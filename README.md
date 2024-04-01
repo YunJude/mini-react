@@ -17,5 +17,5 @@ render使用递归的方式实现dom的创建，当层级非常非常深的时�
 
 4. 实现简单的dom更新和children的初步更新，新增和删除。
 
-5.实现简单的useState和useEffect
+5. 实现简单的useState和useEffect
 实现 useEffect 存起来 effecthooks 调用时机，在 commitWork 之后执行commitEffectHook 依次遍历找到对应的节点两种情况初始化、依赖项有没有改变。
